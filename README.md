@@ -18,7 +18,7 @@ I acted as both an analyst and coordinator, contributing to the core technical w
 - SAS: Data preparation, clustering, decision tree, logistic regression, neural networks
 - Tableau: Customer segmentation dashboards, churn risk visualization, business strategy summaries
   
-**Links to Tableau visualizations and SAS results appear in the full paper**
+*Links to Tableau visualizations and SAS results appear in the full paper*
   
 **Key Results:**
 A decision tree model emerged as the most effective tool for churn prediction, reducing the misclassification rate to 6.65% from an 11.76% baseline. The model identified clear churn indicators :
@@ -27,10 +27,13 @@ A decision tree model emerged as the most effective tool for churn prediction, r
 - Suspended accounts
 - Assignment to non-GOLD CRM value segments
 
+
 These findings translate into actionable next steps:
 - Early outreach to low-engagement accounts
 - Immediate support and intervention for suspended-line customers
 - Tier-based loyalty offerings that target non-GOLD customer groups
 - Value-aligned bundling and scalable plans for SOHO, SME, and enterprise clusters
-
+  
 Together, the model and segmentation approach enable telecom providers to proactively retain high-value customers, strengthen loyalty across value tiers, and surface overlooked accounts that are at risk of churn.
+
+**Future Improvement Opportunity:** Improve churn prediction by addressing class imbalance and applying churn-focused modeling techniques (e.g., oversampling, cost-sensitive learning).
